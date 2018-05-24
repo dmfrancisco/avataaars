@@ -19,7 +19,7 @@ function makeColor(name, color) {
             return _super !== null && _super.apply(this, arguments) || this;
         }
         ColorComponent.prototype.render = function () {
-            return (React.createElement("g", { id: 'Skin/👶🏽-03-Brown', mask: "url(#" + this.props.maskID + ")", fill: color },
+            return (React.createElement("g", { id: 'Skin/\uD83D\uDC76\uD83C\uDFFD-03-Brown', mask: "url(#" + this.props.maskID + ")", fill: color },
                 React.createElement("g", { transform: 'translate(-32.000000, 0.000000)', id: 'Color' },
                     React.createElement("rect", { x: '0', y: '0', width: '264', height: '244' }))));
         };

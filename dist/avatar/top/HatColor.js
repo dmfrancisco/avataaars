@@ -20,7 +20,7 @@ function makeColor(name, color) {
         }
         ColorComponent.prototype.render = function () {
             return (React.createElement("g", { id: 'Color/Palette/Gray-01', mask: "url(#" + this.props.maskID + ")", fillRule: 'evenodd', fill: color },
-                React.createElement("rect", { id: '🖍Color', x: '0', y: '0', width: '264', height: '280' })));
+                React.createElement("rect", { id: '\uD83D\uDD8DColor', x: '0', y: '0', width: '264', height: '280' })));
         };
         return ColorComponent;
     }(React.Component));

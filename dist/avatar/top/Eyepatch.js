@@ -11,14 +11,14 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-var lodash_1 = require("lodash");
+var uniqueId = require("lodash.uniqueid");
 var facialHair_1 = require("./facialHair");
 var Eyepatch = /** @class */ (function (_super) {
     __extends(Eyepatch, _super);
     function Eyepatch() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.mask1 = lodash_1.uniqueId('react-mask-');
-        _this.path1 = lodash_1.uniqueId('react-path-');
+        _this.mask1 = uniqueId('react-mask-');
+        _this.path1 = uniqueId('react-path-');
         return _this;
     }
     Eyepatch.prototype.render = function () {

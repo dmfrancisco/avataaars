@@ -11,20 +11,20 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-var lodash_1 = require("lodash");
+var uniqueId = require("lodash.uniqueid");
 var Squint = /** @class */ (function (_super) {
     __extends(Squint, _super);
     function Squint() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.path1 = lodash_1.uniqueId('react-path-');
-        _this.path2 = lodash_1.uniqueId('react-path-');
-        _this.mask1 = lodash_1.uniqueId('react-mask-');
-        _this.mask2 = lodash_1.uniqueId('react-mask-');
+        _this.path1 = uniqueId('react-path-');
+        _this.path2 = uniqueId('react-path-');
+        _this.mask1 = uniqueId('react-mask-');
+        _this.mask2 = uniqueId('react-mask-');
         return _this;
     }
     Squint.prototype.render = function () {
         var _a = this, path1 = _a.path1, path2 = _a.path2, mask1 = _a.mask1, mask2 = _a.mask2;
-        return (React.createElement("g", { id: 'Eyes/Squint-😊', transform: 'translate(0.000000, 8.000000)' },
+        return (React.createElement("g", { id: 'Eyes/Squint-\uD83D\uDE0A', transform: 'translate(0.000000, 8.000000)' },
             React.createElement("defs", null,
                 React.createElement("path", { d: 'M14,14.0481187 C23.6099827,14.0481187 28,18.4994466 28,11.5617716 C28,4.62409673 21.7319865,0 14,0 C6.2680135,0 0,4.62409673 0,11.5617716 C0,18.4994466 4.39001726,14.0481187 14,14.0481187 Z', id: path1 }),
                 React.createElement("path", { d: 'M14,14.0481187 C23.6099827,14.0481187 28,18.4994466 28,11.5617716 C28,4.62409673 21.7319865,0 14,0 C6.2680135,0 0,4.62409673 0,11.5617716 C0,18.4994466 4.39001726,14.0481187 14,14.0481187 Z', id: path2 })),
